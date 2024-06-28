@@ -1,0 +1,183 @@
+.navbar .container-fluid  a{
+    margin-left: 30px!important;
+}
+
+i{
+    font-size: 25px;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer{
+    background-color: #353535;
+    
+}
+
+.slider-container {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slides li {
+  position: absolute;
+  display: table;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateX(100%);
+  transition: transform .5s ease;
+}
+
+.slides li.selected {
+  z-index: 2;
+  transform: translateX(0);
+}
+
+.slides li.move-left {
+  transform: translateX(-100%);
+}
+
+.slides li.visible {
+  z-index: 2;
+}
+
+.slides li:nth-child(1) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slide1.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.slides li:nth-child(2) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slide2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.slides li:nth-child(3) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slide3.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.slides li>div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+.slides h2 {
+  margin-top: 0;
+}
+
+.slider-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-nav a {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.slider-nav a.next {
+  left: auto;
+  right: 10px;
+}
+
+.slider-dot-nav {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-dot-nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.slider-dot-nav a {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: background .3s ease;
+}
+
+.slider-dot-nav a.selected {
+  background: #fff;
+}
+
+
+.about{
+  background-image: url(../wimg/carousel-1.jpg);
+  height: 50vh;
+  width: 100%;
+  /* backface-visibility: hidden; */
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  
+}
+
+/* .about h1{
+  margin-top: 50px;
+} */
+
+.navbar a:hover{
+      text-decoration: underline;
+      color: brown!important;
+      transition: 0.8s;
+}
+.about h1{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  transform: translate(5%,5%);
+}
+.about h4{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  transform: translate(5%,5%);
+}

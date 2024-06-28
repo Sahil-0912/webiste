@@ -1,0 +1,41 @@
+header{
+    background-image: url(../imgg/banner1.jpg);
+    height: 100vh;
+    background-blend-mode: lighten;
+}
+.navbar a:hover{
+    /* text-decoration:underline ; */
+    border-bottom: 1px solid black;
+}
+.care-txt h1{
+    margin-top: 250px;
+    font-size: 45px;
+}
+.care-txt p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+i::after{
+    content:"100k+";
+    margin-left: 5px;
+}
+.thumb i::after{
+    content: "100%";
+    display: inline-block;
+}
+.thumb p{
+    margin-left: 5px;
+}
+.customer img{
+    border-radius: 50%;
+}
+.filled{
+    background-image: url(../imgg/bg.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.filled span{
+    margin-top: 70px;
+}

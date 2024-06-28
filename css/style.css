@@ -1,0 +1,114 @@
+.bg-img{
+    background-image: url(../img/event-hero-img.jpg);
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.navbar .btn{
+    /* margin-left: 150px; */
+    background-color: #334155!important;
+}
+.navbar .acc .btn{
+    margin-left: 10px;
+    background-color: #8b3dff!important;
+    color: white;
+}
+h4{
+     /* border: 1px solid;
+    border-radius: 100%;
+    width: 40%; */
+    /* padding: 10px; */
+    margin-top: 150px; 
+}
+.join h1{
+    font-size: 45px;
+}
+.join p{
+    font-size: 20px;
+}
+.join .btn{
+    background-color: #8b3dff;
+}
+.location{
+    background-color: #020617;
+    /* height: 100vh; */
+    border-color: #334155;
+}
+.part p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.part h3{
+    margin-top: 130px;
+}
+
+.speakers{
+    background: #334155;
+    /* height: 100vh; */
+}
+.speakers-txt p{
+    color: #cbd5e1;
+    font-size: 20px;
+}
+.speakers-txt h4{
+    font-size: 30px;
+}
+.card img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+.card{
+    background-color: #1e293b;
+}
+.speakers .btn{
+    background-color: #8b3dff!important;
+}
+.event{
+    background-color: #020617;
+    /* height: 100vh; */
+}
+.event .btn{
+    background-color: #8b3dff;
+    border-color: #8b3dff;
+}
+.ticket{
+    background-color: #1e293b;
+    /* height: 100vh; */
+}
+.event-txt p{
+    /* color: #334155!important; */
+    font-size: 20px;
+}
+.sponsors{
+    background-color: #020617;
+    /* height: 80vh; */
+}
+.question{
+    background-color: #1e293b;
+    /* height: 100vh; */
+}
+.question btn{
+    background-color: #8b3dff!important;
+}
+.question span{
+    color: #8b3dff;
+}
+.attend{
+    background-color:#020617;
+    /* height: 100vh; */
+   
+}
+.host-img img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.host-img ::after{
+    content: "Sandip Chauhan";
+}
+/* .speak-txt h5::after{
+    content: "Anita parmar";
+} */
